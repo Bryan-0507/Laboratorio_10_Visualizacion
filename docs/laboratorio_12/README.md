@@ -23,6 +23,8 @@ La v07 añadió la comparación de llegadas por vía aérea entre 2019 y 2025. U
 3. Elige **Cargar (Upload)** y luego **Examinar (Browse)**. Selecciona el archivo `.pbix`. Power BI cargará el informe y el conjunto de datos que usan sus gráficos.
 4. Abre el informe y ve a **Inicio**. Desde la barra superior puedes entrar a **Mercados de origen**, **Vías de ingreso**, **Temporadas** y **Pronósticos**.
 
+Para recuperar los filtros originales en el modo de lectura, elige **Restablecer valores predeterminados (Reset to default)** en la barra superior y confirma con **Restablecer (Reset)**.
+
 El archivo ya trae los datos. Para consultar el tablero no necesitas descargarlos aparte ni cambiar rutas. [Guía de Microsoft para cargar archivos](https://learn.microsoft.com/en-us/power-bi/connect-data/service-desktop-files).
 
 ## De dónde salen los datos y cómo actualizarlos
@@ -71,5 +73,7 @@ Empieza en **Inicio** con el tablero cargado. En cada prueba, cuenta los clics y
 | 1. Identificar el mercado principal en 2024 | Abre **Mercados de origen**, selecciona 2024 y revisa la primera barra. En Power BI, pasa el cursor sobre la barra para ver la cifra exacta. | Centroamérica aportó 2.115.335 llegadas, el 64,60 % del total. |
 | 2. Consultar el cambio en Pedro de Alvarado | Abre **Vías de ingreso** y selecciona la vía terrestre. Busca Pedro de Alvarado para comparar 2009 con 2025. Ese período ya está fijado en Power BI. Regresa a **Inicio**. | Las llegadas aumentaron 875,29 %. La web lo redondea a 875,3 %. |
 | 3. Comparar los pronósticos del total nacional | Abre **Pronósticos**, elige **Total nacional** y busca abril de 2021. En la web, cambia de modelo para leer cada estimación. En Power BI, pasa el cursor por el punto del mes para ver el detalle. Después compara el error porcentual (MAPE) de los tres modelos en todo el período de prueba. | En abril se registraron 59.743 llegadas. El suavizamiento exponencial simple estimó 85.017, SARIMA estimó 35.581 y la red LSTM estimó 89.553. En el período completo, la LSTM tuvo el menor MAPE, con 32,8 %. |
+
+Para comprobar juntas las tres estimaciones en Power BI, abre el menú de tres puntos del gráfico de líneas, elige **Mostrar como tabla (Show as a table)** y busca abril de 2021. Esta consulta es adicional al recorrido cronometrado.
 
 Las figuras 14 a 20 del [informe final](informe.pdf) muestran los resultados de las pruebas. Las figuras 9 a 13 muestran las cinco páginas de la v07.
