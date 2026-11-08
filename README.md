@@ -1,4 +1,11 @@
-# Next.js Starter Template
+# Observatorio de turismo en Guatemala
+
+El Laboratorio 10 presenta el tablero de turismo en la web. El Laboratorio 12 lleva esa información a Power BI. Los dos usan los mismos datos de llegadas a Guatemala y permiten comparar los resultados de tres modelos de pronóstico.
+
+- [Informe del Laboratorio 10](docs/laboratorio_10/informe.pdf)
+- [Cómo abrir el tablero y repetir las pruebas del Laboratorio 12](docs/laboratorio_12/README.md)
+
+## Entorno del proyecto web
 
 This is a comprehensive starter template for modern web applications built with Next.js. It's designed to be used as a starting point for any new web project requiring Next.js, providing a solid foundation with essential development tools and best practices pre-configured.
 
